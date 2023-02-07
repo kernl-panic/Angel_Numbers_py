@@ -15,6 +15,11 @@ class Number:
     def __repr__(self):
         return self.meaning
 
+
+# Each number is an object of the Number Class that has it's own meaning for love, twinflame, career, spiritual, life, and general explanation
+# Later on, after the user input section is done, we will take the players number and associate it with one of these Classes
+# Example: If player enters "11" their number will become 'one' - If player enters "777777" their number will become 'seven'
+
 one = Number()
 one.meaning = """In numerology, the number 1 reflects new beginnings, power, and action.\nA huge reason why you might be seeing angel number 1 is that your guardian angels want you to focus on the present.\nUnfortunately, many of us will get distracted by worries about the past or future.\nWe may find ourselves ruminating over things that went wrong, or worrying about what the future holds for us.\nThis ultimately causes us to feel stuck and useless. We can’t change the past, and we don’t know what will happen in the future, so we must try to concentrate on the here and now.\n\nMeditation and mindfulness are great ways to focus on the here and now.\nBy grounding yourself and paying attention to your current moods and sensations, you are able to find comfort and solace in the moment."""
 one.love_single = "The angel number 1 also has clear messages regarding your love life. Generally, this number reflects new beginnings and action.\nIf you are single, your guardian angels are telling you that it is time to leave the past in the past and embrace the next phase of your romantic life. Broken hearts and old relationships that did not go well are still affecting your approach to love, and this is ultimately holding you back from happiness.\n\nIt is time to reflect on where you are and where you wish to be regarding love. What do you want from a partner, and what do you need to let go of?\n"
@@ -88,10 +93,14 @@ nine.career = ""
 nine.spiritual = ""
 nine.life = ""
     
+
+# player is a Dictionary that will hold values based on their answers to the questions
+# Then based on the values, we will output specific traits of the number
+# If "career" is False, we will not output the numbers self.career
+# If twinflame is True, we will output the information in self.twinflame
+# If player skipped questions and wants all information, all values will be True and we will output all attributes
+
 player = {'name': "", 'love_single': "", 'love_relationship': "", 'twinflame': "", 'career': "", 'spiritual': "", 'life': ""}
-
-
-
 
 
 
@@ -105,6 +114,10 @@ player_name = input("First, may I have your name? ")
 player['name'] = player_name
 
 print("Hi, {pn}! Here's how this works:\nMaybe you've been seeing a certain number everywhere you look, like '1111' or '777'. These numbers hold a lot of significance in their meaning and can be used as guidance pertaining to certain areas of your life.\n\nThis program will tell you how the number you are seeing can be interpreted and hopefully offer some insight into what the Universe might be trying to tell you.\n\nTo give you the most relevant information, first I'll need to ask some questions about you.".format(pn=player_name))
+
+# Below: Takes input and keeps asking for input until the requirements are met - Either 'yes' - 'y' - 'no' - 'n'
+# The relationship variable must be separate because if Player skips questions, it must be set to 'both' so we can set two keys using one variable later on
+# The rest are iterated over in a for loop to set their corresponding 'player' keys - We can't do this with relationship having to change two keys
 
 skip_choice = ""
 
@@ -147,6 +160,10 @@ else:
         player['life'] = input("Do you wish to know what your number means regarding your Path in Life? (Yes/No) ")
         player['life'] = player['life'].lower()
 
+# As stated above, everything else is checked in a for loop
+# Relationship must be checked separately because it is the only one that can have the value 'both' instead of 'yes'/'y' and 'no'/'n' (Which is what determines the corresponding keys in player)
+# Since the above loops/inputs set the player keys to either 'yes'/'y' or 'no'/'n' (except for relationship) - Here we change the key to True if 'yes' and False if 'no'
+
 if relationship == 'both':
     player['love_single'] = True
     player['love_relationship'] = True
@@ -165,8 +182,15 @@ for i in player:
     else:
         pass
 
+
+# Angel number must be initialized as a string so we can check it's value in the while loop below
+# 'letters' is used to check if any individual item in the player's input is a letter instead of a number
+
 angel_number = ""
 letters = "abcdefghijklmnopqrstuvwxyz"
+
+
+# *Currently Broken* - are_all_same() attempts to check the player's input to see if all numbers are the same (1111) and not one is different (1112)
 
 def are_all_same(number_string):
     counter = 0
@@ -177,6 +201,13 @@ def are_all_same(number_string):
             counter += 1
     print("Counter: {}".format(counter))
     return counter == 0
+
+
+# Angel_number is currently a string. Sets has_letter initially to False and counter to zero.
+# Checks each "letter" in angel_number against the list of letters.
+# If any are a letter instead of number counter will not be zero
+# If counter is not zero, it passes and leaves angel_number as a string so the while loop keeps prompting until all items are numbers
+# If ALL characters input are numbers, angel_number gets changed to type int and satisfies the while loop
 
 while type(angel_number) == str:
     angel_number = input(("Perfect. Now just enter the number you wish to learn about and I'll tell you all about it: "))
@@ -196,3 +227,5 @@ while type(angel_number) == str:
         angel_number = int(angel_number)
 
 print(type(angel_number))
+
+# As of now, are_all_same does not catch when numbers are not all the same - "1112" gets past it and becomes type int
