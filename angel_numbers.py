@@ -16,7 +16,13 @@ class Number:
         return self.meaning
 
 one = Number()
-one.meaning = "In numerology, the number 1 reflects new beginnings, power, and action."
+one.meaning = """In numerology, the number 1 reflects new beginnings, power, and action.\n
+                 A huge reason why you might be seeing angel number 1 is that your guardian angels want you to focus on the present.\n
+                 Unfortunately, many of us will get distracted by worries about the past or future.\n
+                 We may find ourselves ruminating over things that went wrong, or worrying about what the future holds for us.\n
+                 This ultimately causes us to feel stuck and useless. We can’t change the past, and we don’t know what will happen in the future, so we must try to concentrate on the here and now.\n\n
+                 Meditation and mindfulness are great ways to focus on the here and now.\n
+                 By grounding yourself and paying attention to your current moods and sensations, you are able to find comfort and solace in the moment."""
 one.love = ""
 one.twinflame = ""
 one.financial = ""
@@ -27,8 +33,19 @@ one.career = """The number 1 serves as a reminder of your own personal power.\n
 one.spiritual = """If you are seeing this number a lot, your guardian angels want you to experience new ideas regarding spirituality.\n
                    The angel number 1 is often seen as a wake-up call in regard to spirituality.\n
                    It asks you to put faith in the universe and embrace your spiritual side.\n
-                   Number 1 is a number of new beginnings, and this can be reflected in your approach to your spirituality"""
-one.life = ""
+                   Number 1 is a number of new beginnings, and this can be reflected in your approach to your spirituality\n
+                   It is time to explore your spiritual side in an open-minded way"""
+one.life = """The Angel number 1 is also a message of encouragement from our guardian angels\n
+              They want you to know that you are on the right path in life, and you should keep on doing what you are doing\n
+              You have a strong sense of self, and you must listen to your intuition for guidance\n
+              You are making the right choices in order to move forward on your true path in life, even if you feel as if you are going in circles sometimes\n
+              Life is full of ups and downs, but ultimately, you will get to where you dream to be.\n
+              You are moving in the right direction, so keep doing what you are doing\n\n
+              The angel number 1 also reflects new beginnings, and so a reason why you might be seeing it is because you are at the beginning of a new adventure\n
+              If you are seeing the angel number 1 a lot, it may be because one chapter of your life is coming to a close, with another one beginning.\n
+              This is an exciting time, although it might be a bit scary\n
+              This new phase of your life will be so rewarding! You will discover new aspects of yourself and hidden depths of your soul.\n
+              It will be a time of self-exploration and personal development, so keep moving forward and doing what you are doing"""
 
 two = Number()
 two.meaning = ""
