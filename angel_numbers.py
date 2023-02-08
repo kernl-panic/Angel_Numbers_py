@@ -2,6 +2,13 @@
 # Reid Davis
 # February 6, 2023
 
+import msvcrt as m
+
+def wait():
+    m.getch()
+
+
+
 class Number:
     def __init__(self):
         self.meaning = ""
@@ -102,18 +109,31 @@ nine.life = ""
 
 player = {'name': "", 'love_single': "", 'love_relationship': "", 'twinflame': "", 'career': "", 'spiritual': "", 'life': ""}
 
+# Beginning of Program
 
+print("\nWelcome to my Angel Number Project!\n\nI made this tool for those who have been seeing certain numbers over and over again and might be curious as to what they mean.\n")
 
-
-print("Welcome to my Angel Number Project!\nI made this tool for those who have been seeing certain numbers over and over again and might be curious as to what they mean.\n")
+print("Press any key to continue...")
+wait()
 
 player_name = ""
 
-player_name = input("First, may I have your name? ")
+while player_name == "":
+    player_name = input("\nFirst, may I have your name?\n")
 
 player['name'] = player_name
 
-print("Hi, {pn}! Here's how this works:\nMaybe you've been seeing a certain number everywhere you look, like '1111' or '777'. These numbers hold a lot of significance in their meaning and can be used as guidance pertaining to certain areas of your life.\n\nThis program will tell you how the number you are seeing can be interpreted and hopefully offer some insight into what the Universe might be trying to tell you.\n\nTo give you the most relevant information, first I'll need to ask some questions about you.".format(pn=player_name))
+print("\nHi, {pn}! Here's how this works:\n\nMaybe you've been seeing a certain number everywhere you look, like '1111' or '777'.".format(pn=player_name))
+print("These numbers hold a lot of significance in their meaning and can be used as guidance pertaining to certain areas of your life.\n")
+
+print("Press any key to continue...")
+wait()
+
+print("\nThis program will tell you how the number you are seeing can be interpreted and hopefully offer some insight into what the Universe might be trying to tell you.")
+print("To give you the most relevant information, first I'll need to ask some questions about you.\n")
+
+print("Press any key to continue...")
+wait()
 
 # Below: Takes input and keeps asking for input until the requirements are met - Either 'yes' - 'y' - 'no' - 'n'
 # The relationship variable must be separate because if Player skips questions, it must be set to 'both' so we can set two keys using one variable later on
@@ -122,10 +142,10 @@ print("Hi, {pn}! Here's how this works:\nMaybe you've been seeing a certain numb
 skip_choice = ""
 
 while skip_choice.lower() != 'yes' and skip_choice.lower() != 'y' and skip_choice.lower() != 'no' and skip_choice.lower() != 'n':
-    skip_choice = input("If you would like to skip this part and get all information about the number, we can do that here.\nWould you like to skip the questions? (Yes/No) ")
+    skip_choice = input("\nIf you would like to skip this part and get all information about the number, we can do that here.\n\nWould you like to skip the questions? (Yes/No) ")
 
 if skip_choice.lower() == 'yes' or skip_choice.lower() == 'y':
-    print("Okay! We'll give you all the information about your number.")
+    print("\nOkay! We'll give you all the information about your number.")
     relationship = 'both'
     player['twinflame'] = 'yes'
     player['career'] = 'yes'
@@ -142,23 +162,25 @@ else:
 
     
     while player['twinflame'].lower() != 'yes' and player['twinflame'].lower() != 'y' and player['twinflame'].lower() != 'no' and player['twinflame'].lower() != 'n':
-        player['twinflame'] = input("Are you curious how this number relates to your Twin Flame? (Yes/No) ")
+        player['twinflame'] = input("\nAre you curious how this number relates to your Twin Flame? (Yes/No) ")
         player['twinflame'] = player['twinflame'].lower()
     
     
     while player['career'].lower() != 'yes' and player['career'].lower() != 'y' and player['career'].lower() != 'no' and player['career'].lower() != 'n':
-        player['career'] = input("Would you like advice pertaining to your Career / Professional Life? (Yes/No) ")
+        player['career'] = input("\nWould you like advice pertaining to your Career / Professional Life? (Yes/No) ")
         player['career'] = player['career'].lower()
     
     
     while player['spiritual'].lower() != 'yes' and player['spiritual'].lower() != 'y' and player['spiritual'].lower() != 'no' and player['spiritual'].lower() != 'n':
-        player['spiritual'] = input("Would you like to know this number's meaning in regards to Spirituality? (Yes/No) ")
+        player['spiritual'] = input("\nWould you like to know this number's meaning in regards to Spirituality? (Yes/No) ")
         player['spiritual'] = player['spiritual'].lower()
     
     
     while player['life'].lower() != 'yes' and player['life'].lower() != 'y' and player['life'].lower() != 'no' and player['life'].lower() != 'n':
-        player['life'] = input("Do you wish to know what your number means regarding your Path in Life? (Yes/No) ")
+        player['life'] = input("\nDo you wish to know what your number means regarding your Path in Life? (Yes/No) ")
         player['life'] = player['life'].lower()
+    
+    print("\nPerfect! That's all I need.")
 
 # As stated above, everything else is checked in a for loop
 # Relationship must be checked separately because it is the only one that can have the value 'both' instead of 'yes'/'y' and 'no'/'n' (Which is what determines the corresponding keys in player)
@@ -182,12 +204,14 @@ for i in player:
     else:
         pass
 
+print("\nPress any key to continue...")
+wait()
 
 # Angel number must be initialized as a string so we can check it's value in the while loop below
 # 'letters' is used to check if any individual item in the player's input is a letter instead of a number
 
 angel_number = ""
-letters = "abcdefghijklmnopqrstuvwxyz"
+letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 
 # *Currently Broken* - are_all_same() attempts to check the player's input to see if all numbers are the same (1111) and not one is different (1112)
@@ -199,20 +223,25 @@ def are_all_same(number_string):
             pass
         else:
             counter += 1
-    print("Counter: {}".format(counter))
-    return counter == 0
+    return (counter == 0)
 
 
-# Angel_number is currently a string. Sets has_letter initially to False and counter to zero.
-# Checks each "letter" in angel_number against the list of letters.
-# If any are a letter instead of number counter will not be zero
+
+
 # If counter is not zero, it passes and leaves angel_number as a string so the while loop keeps prompting until all items are numbers
 # If ALL characters input are numbers, angel_number gets changed to type int and satisfies the while loop
 
 while type(angel_number) == str:
-    angel_number = input(("Perfect. Now just enter the number you wish to learn about and I'll tell you all about it: "))
+    
+    angel_number = input(("\nNow just enter the number you wish to learn about and I'll tell you all about it:\n"))
+    
+    # Angel_number is currently a string. Sets has_letter initially to False and counter to zero.
+    
     has_letter = False
     counter = 0
+    
+    # Checks each "letter" in angel_number against the list of letters.
+    # If any are a letter instead of number counter will not be zero
     for i in angel_number:
         if i in letters:
             counter += 1
@@ -226,6 +255,5 @@ while type(angel_number) == str:
     else:
         angel_number = int(angel_number)
 
-print(type(angel_number))
 
 # As of now, are_all_same does not catch when numbers are not all the same - "1112" gets past it and becomes type int
