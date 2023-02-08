@@ -27,6 +27,7 @@ class Number:
 # Later on, after the user input section is done, we will take the players number and associate it with one of these Classes
 # Example: If player enters "11" their number will become 'one' - If player enters "777777" their number will become 'seven'
 
+# Going to make the numbers 111 - 222 - 333 and so on...Instead of 1 - 2 - 3 - 4
 one = Number()
 one.meaning = """In numerology, the number 1 reflects new beginnings, power, and action.\nA huge reason why you might be seeing angel number 1 is that your guardian angels want you to focus on the present.\nUnfortunately, many of us will get distracted by worries about the past or future.\nWe may find ourselves ruminating over things that went wrong, or worrying about what the future holds for us.\nThis ultimately causes us to feel stuck and useless. We can’t change the past, and we don’t know what will happen in the future, so we must try to concentrate on the here and now.\n\nMeditation and mindfulness are great ways to focus on the here and now.\nBy grounding yourself and paying attention to your current moods and sensations, you are able to find comfort and solace in the moment."""
 one.love_single = "The angel number 1 also has clear messages regarding your love life. Generally, this number reflects new beginnings and action.\nIf you are single, your guardian angels are telling you that it is time to leave the past in the past and embrace the next phase of your romantic life. Broken hearts and old relationships that did not go well are still affecting your approach to love, and this is ultimately holding you back from happiness.\n\nIt is time to reflect on where you are and where you wish to be regarding love. What do you want from a partner, and what do you need to let go of?\n"
@@ -214,16 +215,14 @@ angel_number = ""
 letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 
-# *Currently Broken* - are_all_same() attempts to check the player's input to see if all numbers are the same (1111) and not one is different (1112)
+# Working! - are_all_same() attempts to check the player's input to see if all numbers are the same (1111) and not one is different (1112)
+# If the string is equal to: The first letter of the string times however long the string is - All characters are the same
 
 def are_all_same(number_string):
-    counter = 0
-    for num in number_string:
-        if num == num[0]:
-            pass
-        else:
-            counter += 1
-    return (counter == 0)
+    if number_string == len(number_string) * number_string[0]:
+        return True
+    else:
+        return False
 
 
 
@@ -248,12 +247,8 @@ while type(angel_number) == str:
         else:
             pass
     
-    are_same = are_all_same(angel_number)
-    
-    if counter != 0 or are_same == False:
+    # If all characters are not a letter + All numbers in the string are the same number - angel_number becomes type int and satisfies the While Loop
+    if counter != 0 or are_all_same(angel_number) == False:
         pass
     else:
         angel_number = int(angel_number)
-
-
-# As of now, are_all_same does not catch when numbers are not all the same - "1112" gets past it and becomes type int
