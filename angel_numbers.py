@@ -124,7 +124,7 @@ while player_name == "":
 
 player['name'] = player_name
 
-print("\nHi, {pn}! Here's how this works:\n\nMaybe you've been seeing a certain number everywhere you look, like '1111' or '777'.".format(pn=player_name))
+print("\nHi, {name_first}{name_rest}! Here's how this works:\n\nMaybe you've been seeing a certain number everywhere you look, like '1111' or '777'.".format(name_first=player_name[0].upper(), name_rest=player_name[1:]))
 print("These numbers hold a lot of significance in their meaning and can be used as guidance pertaining to certain areas of your life.\n")
 
 print("Press any key to continue...")
@@ -154,7 +154,7 @@ if skip_choice.lower() == 'yes' or skip_choice.lower() == 'y':
     player['life'] = 'yes'
 
 else:
-    print("Fantastic! Here are some questions:\n")
+    print("\nFantastic! Here are some questions:\n")
     
     relationship = ""
     while relationship.lower() != 'yes' and relationship.lower() != 'y' and relationship.lower() != 'no' and relationship.lower() != 'n':
@@ -230,7 +230,7 @@ def are_all_same(number_string):
 # If counter is not zero, it passes and leaves angel_number as a string so the while loop keeps prompting until all items are numbers
 # If ALL characters input are numbers, angel_number gets changed to type int and satisfies the while loop
 
-while type(angel_number) == str:
+while True:
     
     angel_number = input(("\nNow just enter the number you wish to learn about and I'll tell you all about it:\n"))
     
@@ -251,4 +251,69 @@ while type(angel_number) == str:
     if counter != 0 or are_all_same(angel_number) == False:
         pass
     else:
-        angel_number = int(angel_number)
+        break
+
+print("\nBased on your answers to the questions, I'll tell you what your number means")
+print("\nIf you opted to skip the questions, you'll just see everything!")
+print("\nPress any key to continue...")
+wait()
+
+
+if '1' in angel_number:
+    angel_number = one
+elif '2' in angel_number:
+    angel_number = two
+elif '3' in angel_number:
+    angel_number = three
+elif '4' in angel_number:
+    angel_number = four
+elif '5' in angel_number:
+    angel_number  = five
+elif '6' in angel_number:
+    angel_number = six
+elif '7' in angel_number:
+    angel_number = seven
+elif '8' in angel_number:
+    angel_number = eight
+elif '9' in angel_number:
+    angel_number = nine
+
+numbers_lst = [one, two , three, four, five, six, seven , eight, nine]
+
+for num in numbers_lst:
+    if num == angel_number:
+        print("\n\nHere's the general overview:\n")
+        print(angel_number.meaning)
+        print("\nPress any key to continue...")
+        wait()
+
+        if player['love_single'] == True:
+            print("\n\nIf you are currently single: \n")
+            print(angel_number.love_single)
+            print("\nPress any key to continue...")
+            wait()
+        if player['love_relationship'] == True:
+            print("\n\nIf you are currently in a Relationship: \n")
+            print(angel_number.love_relationship)
+            print("\nPress any key to continue...")
+            wait()
+        if player['twinflame'] == True:
+            print("\n\nTwinflame meaning: \n")
+            print(angel_number.twinflame)
+            print("\nPress any key to continue...")
+            wait()
+        if player['career'] == True:
+            print("\n\nHere's some guidance related to your Professional Life / Career: \n")
+            print(angel_number.career)
+            print("\nPress any key to continue...")
+            wait()
+        if player['spiritual'] == True:
+            print("\n\nThis number's Spiritual signifance: \n")
+            print(angel_number.spiritual)
+            print("\nPress any key to continue...")
+            wait()
+        if player['life'] == True:
+            print("\n\nRegarding your Path in Life: \n")
+            print(angel_number.life)
+            print("\nPress any key to continue...")
+            wait()
