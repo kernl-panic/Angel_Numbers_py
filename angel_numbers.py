@@ -125,38 +125,38 @@ five.life = """\n555 is a reminder to take control of your well-being.\n\nYou ca
 
 six = Number()
 
-six.meaning = """"""
+six.meaning = """\n666 is like a gentle reminder to focus on what really matters.\n\nThis number sequence may appear randomly, but it could be a sign from the universe to keep your priorities in check.\n\nIf you see this number frequently, it might be time to reassess your goals and make sure you're staying true to your authentic path.\n\nSometimes, you might lose sight of your original ambitions. For example, if you try to be a people-pleaser all the time, then you might not have enough time or energy to work on creative projects you've always wanted to tackle.\n\nIn this case, 666 can remind you to make more time for yourself and your passions.\n\nIf you have some unhealthy habits, 666 invites you to replace them.\n\nMaybe you have some patterns—like comparing yourself to people on social media—that impact your emotional or mental health.\n\n666 is a clue that angels have taken notice and want you to build a positive mindset and prioritize a balanced lifestyle instead.\n\nIf you're sweating the small stuff, 666 encourages you to destress. Lately, you might find yourself overwhelmed by what seem like big issues.\n\nYou could be worried about how people perceive you or how successful you seem.\n\nWhen you see 666, it's a great chance to stop, take a deep breath, and ground yourself.\n\nIf you're overlooking your health, 666 might keep popping up. Maybe you're downing your fifth cup of coffee and turning down yet another night of good sleep.\n\nIf you haven't exactly been taking great care of yourself, 666 can help remind you to get back on track.\n\nOnce the angels give you a friendly poke, you'll probably feel inspired to change your lifestyle for the better."""
 
-six.love_single = """"""
+six.love_single = """\nIn your love life, 666 can be a sign that you're close to coming into contact with your twin flame.\n\n\n\nThis is also an angel's way of letting you know that you'll need to learn to communicate better with this individual.\n\nOnce you determine if you've found your soulmate, the next step is to hold onto them by practicing unconditional love."""
 
-six.love_relationship = """"""
+six.love_relationship = """\nDuring clashes with a Significant Other, 666 may show up to resolve conflicts.\n\nIf you've found your twin flame and don't want to snuff out your fun and fiery love affair, then it's important to cool off when conversations get heated.\n\n666 reminds you to take it easy on your sweetie and embrace all their positive qualities instead of nitpicking or picking fights.\n\nBe gentle with your Significant Other when 666 shows up. A twin flame relationship is all about healing emotional wounds and achieving spiritual growth together.\n\nIn order to achieve that, you and your partner will have to laugh off silly arguments and show each other kindness whenever you can.\n\nWhen you put respect over being "right" all the time, your relationship will be one for the ages."""
 
-six.twinflame = """"""
+six.twinflame = """\nIf love’s on your mind, 666 says you’ll meet your twin flame. If you’ve been hungering for an intense romance, then 666 is reassurance that you’re destined to find a twin flame."""
 
-six.career = """"""
+six.career = """\nThe number 666 asks you to keep sight of your biggest goals.\n\nIf you've been bogged down with a lot of distractions, such as binge-watching TV every night, 666 can help shift your focus.\n\nWhen you see it, you may find that you'd like to be more productive and work on what you really care about, such as writing your own screenplay instead of just passively enjoying shows.\n\nA lot of people see the number 666 and think it's unlucky. But if you're seeing it a lot, it is actually an omen of good fortune.\n\nIt means that you're on the right track for your career and finances. You should continue pursuing your goals and following your dreams.\n\nTrust that you are headed in the right direction and everything will fall into place."""
 
-six.spiritual = """"""
+six.spiritual = """\nThe angel number 666 asks you to redirect your energy so you'll thrive.\n\nSure, 666 is calling out that you're facing lots of temptations, but the angels sending it aren't trying to lecture you.\n\nThey just really care about you and want to make sure that you steer clear of any toxic people, media, or patterns that keep you from manifesting your goals.\n\n666 is sometimes associated with the Devil, but it's just an angelic revelation that there's some chaos that might throw you off track.\n\nIn Christianity, 666 is known as the “mark of the beast,” but it can be interpreted in many different ways. The repeated presence of the number 6 just signifies that humans are not perfect like God is, and so they’re easily influenced by temptation.\n\nIf it helps, you can think of the "Devil" major arcana card from a Tarot deck. When you read tarot cards, the Devil just symbolizes forces you need to resist.\n\nThe number 666 is also a gentle reminder that you are always connected to the divine. No matter what might be going on in your life at the moment, remember that you have a higher purpose.\n\nYou are always connected to something bigger and better."""
 
-six.life = """"""
+six.life = """\nThe number 6 is a sign that self-love is a must-have in your life.\n\nIn the Tarot, the number 6 represents "The Lovers." In addition, in numerology, 6 symbolizes total and perfect love.\n\nIn essence, once you tap into the power of 6, you can fully love yourself. When you embrace all of who you are, others will, too.\n\nIf the number 6 is tripled, it's a hint that you'll enjoy perfect harmony.\n\nOnce you're hit with 666, it's actually a great sign you'll achieve balance in your friendships, career, and love life.\n\nNumerically speaking, when you channel the energy of the three sixes, you'll amplify peace in every aspect of your life.\n\nWhen you're under a lot of pressure, 666 is a sign to practice self-care.\n\nDuring periods of time when you're trying to take on the whole world, 666 can help you slow down.\n\nYou might feel like you need to rescue everyone, even if it's really draining and exhausting. Once you spot 666, your guardian angels can intervene and guide you to put yourself first.\n\nSearch for inner peace if 666 keeps making an appearance. Be honest and ask yourself if you feel a sense of balance.\n\nIf you don't, take steps to build habits that promote calmness and emotional resilience. You may wish to meditate or practice deep breathing so you can gain control of your emotions."""
 
 
 
 
 seven = Number()
 
-seven.meaning = """"""
+seven.meaning = """\nThe number 777 is a sign to keep pushing forward.\n\nIf you’re experiencing tough times, the angels want you to know that the heavenly realm is on your side.\n\nIdentify what you can control in a situation, and remember to visualize your end goal–all of your efforts will pay off soon!\n\nTo overcome obstacles, create an actionable list of steps you can take. Break down large tasks into shorter ones, or record your progress in a journal.\n\nWhen repeated, the number 7 represents higher self-awareness. There are 7 colors in the rainbow, 7 chakras, and 7 spiritual levels to heaven.\n\nWhen 7 is multiplied (77 or 777), the angels are urgently trying to get your attention. They want you to strive for spiritual enlightenment and trust your intuition when making decisions.\n\nSelf-reliance is crucial to reach self-awareness. It might be challenging if you frequently ask people for advice, but remember that you create all your experiences!\n\nWhen decision-making, reflect on the past and use it as guidance."""
 
-seven.love_single = """"""
+seven.love_single = """\nIf you’re single, 777 is a sign to focus on your spiritual path. The angels are advising you to work on all the relationships in your life, starting with yourself.\n\nIt’s important to have a clear, peaceful mind before pursuing a relationship. If you don’t know who you are and what you want, you might attract the wrong partner!\n\nTo connect with your spiritual side, practice daily gratitude journaling. Write down a list of all the things you’re thankful for and find ways to give back to your community."""
 
-seven.love_relationship = """"""
+seven.love_relationship = """\nIf you’re in a relationship, use your spiritual journey as a tool to strengthen your bond with your partner.\n\nFoster meaningful conversations by asking them open-ended questions so you can grow together as a couple.\n\nIt’s important to consider that some people aren’t looking for advice when they share their problems. Listen carefully to your partner before responding.\n\nThe most meaningful response can be validating what the other person is feeling."""
 
-seven.twinflame = """"""
+seven.twinflame = """\nIf you see 777, the angels are preparing you for your twin flame’s arrival.\n\nTwin flames refer to two individuals who share a deep, powerful connection–they’re two halves of the same soul.\n\nIf you haven’t found your twin flame yet, the number 777 is a sign that your other half is nearby. Twin flames can appear in the most unexpected places, so keep an open heart and mind.\n\nYou might run into someone special very soon!\n\nWhen the angels guide you to your other half, there are several signs you’ve met your twin flame.\n\nMany people believe twin flames share a past life, so you may experience feelings of deja vu when you encounter them for the first time."""
 
-seven.career = """"""
+seven.career = """\nCareer-wise, the angels are encouraging you to embrace change. Everyone faces periods of uncertainty in their career.\n\nIf you’re facing obstacles, it’s important to develop a growth mindset and view every challenge as an opportunity to learn!\n\nIf you find yourself struggling to cope with failure, consider talking to a close friend or family member.\n\nAnother perspective can shed new light on a situation and help you overcome your mistakes."""
 
-seven.spiritual = """"""
+seven.spiritual = """\nThe angel number 777 represents completeness. The number 777 signifies that your spirit and soul are in alignment.\n\nYour guardian angels want you to know that you’re on the right path in your spiritual journey, as long as you work toward a balanced life.\n\nIn Christianity, 777 is often referred to as “God’s number”.\n\nIt represents the perfection of the Holy Trinity, serving as a reminder to trust in divine timing.\n\nThe angel number 777 represents good fortune. Commonly associated with jackpots, the number 777 is a sign of prosperity.\n\nEven if you don’t win the lottery, the angels want you to remain patient and focused. Good things take time!\n\nIn some cultures, 777 represents lack of discipline and gambling.\n\nIt’s important to learn how to be content with your life so you don’t get swept away by materialistic desires."""
 
-seven.life = """"""
+seven.life = """\nThe number 777 serves as a reminder that you’re on the right path.\n\nYour guardian angels want you to know that positive change is on the horizon. Keep working toward your goals and be mindful of who you surround yourself with.\n\nThe number 777 could be a warning to focus on your surroundings.\n\nIf certain people or activities are preventing you from achieving your highest spiritual self, replace them with ones that increase harmony in your life.\n\nDiscover your purpose in life.\n\nLife is hectic sometimes, and it can be a challenge to slow down and reflect.\n\nTo help find your purpose in life, reflect on who you are, what you consider meaningful, and what you want in life.\n\nWrite down who inspires you and figure out how they achieved their goals.\n\nUse their life as a blueprint for your own, focusing on small changes you can make to increase your happiness.\n\nBring positive energy into your life.\n\nHigh frequency vibrations, like feelings of joy and clarity, have the ability to improve your mental, physical, and emotional state.\n\nAttract this energy by putting yourself first or actively thinking positive thoughts.\n\nRemember that your thoughts can manifest into reality. By maintaining a positive outlook, you attract positive people and experiences into your life."""
 
 
 
@@ -247,7 +247,7 @@ while skip_choice.lower() != 'yes' and skip_choice.lower() != 'y' and skip_choic
 
 if skip_choice.lower() == 'yes' or skip_choice.lower() == 'y':
     print("\n----------------------------------------------------------------------------")
-    print("\nOkay! We'll give you all the information about your number.")
+    print("\nOkay! I'll give you all the information about your number.")
     relationship = 'both'
     player['twinflame'] = 'yes'
     player['career'] = 'yes'
@@ -361,7 +361,7 @@ while True:
 
 print("\n----------------------------------------------------------------------------")
 print("\nBased on your answers to the questions, I'll tell you what your number means")
-print("\nIf you opted to skip the questions, you'll just see everything!")
+print("\nIf you opted to skip the questions, you'll see it all!")
 print("\nPress any key to continue...")
 wait()
 
@@ -435,7 +435,7 @@ if player['life'] == True:
     wait()
 
 print("\n----------------------------------------------------------------------------")
-print("\nThere you have it!\n\nI hope this program was able to shed some light on how the Universe may be trying to communnicate with you.")
+print("\nThere you have it!\n\nI hope this was able to shed some light on how the Universe may be trying to communnicate with you.")
 print("\nIf you would like to see a different number, feel free to run the Program again\n")
 print("\nThanks for using my fun little program!")
 print("\nExit...")
